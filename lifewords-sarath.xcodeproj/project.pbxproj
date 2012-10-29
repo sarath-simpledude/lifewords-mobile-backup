@@ -18,12 +18,17 @@
 		6991AC5E16396B9600A3FEE0 /* container.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = container.psd; sourceTree = "<group>"; };
 		6991AC5F16396B9600A3FEE0 /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
 		6991AC6016396B9600A3FEE0 /* separator.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = separator.psd; sourceTree = "<group>"; };
+		69C85A86163E41DD00F758AE /* UIGlossyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIGlossyButton.h; sourceTree = "<group>"; };
+		69C85A87163E41DD00F758AE /* UIGlossyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGlossyButton.m; sourceTree = "<group>"; };
+		69C85A88163E41DE00F758AE /* UIView+LayerEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerEffects.h"; sourceTree = "<group>"; };
+		69C85A89163E41DE00F758AE /* UIView+LayerEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		6991AC451639683300A3FEE0 = {
 			isa = PBXGroup;
 			children = (
+				69C85A8B163E41F600F758AE /* UIGlossyButton */,
 				6991AC5116396B9600A3FEE0 /* Graphics */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +81,17 @@
 				6991AC6016396B9600A3FEE0 /* separator.psd */,
 			);
 			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		69C85A8B163E41F600F758AE /* UIGlossyButton */ = {
+			isa = PBXGroup;
+			children = (
+				69C85A86163E41DD00F758AE /* UIGlossyButton.h */,
+				69C85A87163E41DD00F758AE /* UIGlossyButton.m */,
+				69C85A88163E41DE00F758AE /* UIView+LayerEffects.h */,
+				69C85A89163E41DE00F758AE /* UIView+LayerEffects.m */,
+			);
+			name = UIGlossyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
