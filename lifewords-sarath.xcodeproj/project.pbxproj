@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		6908E2B71642E2A800E27559 /* CurledViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurledViewBase.h; sourceTree = "<group>"; };
+		6908E2B81642E2A800E27559 /* CurledViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurledViewBase.m; sourceTree = "<group>"; };
+		6908E2B91642E2A800E27559 /* UIButton+Curled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Curled.h"; sourceTree = "<group>"; };
+		6908E2BA1642E2A800E27559 /* UIButton+Curled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Curled.m"; sourceTree = "<group>"; };
+		6908E2BB1642E2A800E27559 /* UIImageView+Curled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Curled.h"; sourceTree = "<group>"; };
+		6908E2BC1642E2A800E27559 /* UIImageView+Curled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Curled.m"; sourceTree = "<group>"; };
 		6991AC5316396B9600A3FEE0 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		6991AC5416396B9600A3FEE0 /* no_avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_avatar.jpeg; sourceTree = "<group>"; };
 		6991AC5516396B9600A3FEE0 /* lifeWords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeWords.png; sourceTree = "<group>"; };
@@ -25,9 +31,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		6908E2B61642E2A800E27559 /* curledView */ = {
+			isa = PBXGroup;
+			children = (
+				6908E2B71642E2A800E27559 /* CurledViewBase.h */,
+				6908E2B81642E2A800E27559 /* CurledViewBase.m */,
+				6908E2B91642E2A800E27559 /* UIButton+Curled.h */,
+				6908E2BA1642E2A800E27559 /* UIButton+Curled.m */,
+				6908E2BB1642E2A800E27559 /* UIImageView+Curled.h */,
+				6908E2BC1642E2A800E27559 /* UIImageView+Curled.m */,
+			);
+			path = curledView;
+			sourceTree = "<group>";
+		};
 		6991AC451639683300A3FEE0 = {
 			isa = PBXGroup;
 			children = (
+				6908E2B61642E2A800E27559 /* curledView */,
 				69C85A8B163E41F600F758AE /* UIGlossyButton */,
 				6991AC5116396B9600A3FEE0 /* Graphics */,
 			);
