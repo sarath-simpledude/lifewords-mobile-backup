@@ -13,6 +13,8 @@
 		6908E2BA1642E2A800E27559 /* UIButton+Curled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Curled.m"; sourceTree = "<group>"; };
 		6908E2BB1642E2A800E27559 /* UIImageView+Curled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Curled.h"; sourceTree = "<group>"; };
 		6908E2BC1642E2A800E27559 /* UIImageView+Curled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Curled.m"; sourceTree = "<group>"; };
+		69792D081643482100B22117 /* JSBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
+		69792D091643482100B22117 /* JSBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
 		6991AC5316396B9600A3FEE0 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		6991AC5416396B9600A3FEE0 /* no_avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_avatar.jpeg; sourceTree = "<group>"; };
 		6991AC5516396B9600A3FEE0 /* lifeWords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeWords.png; sourceTree = "<group>"; };
@@ -44,9 +46,19 @@
 			path = curledView;
 			sourceTree = "<group>";
 		};
+		69792D071643482100B22117 /* JSBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				69792D081643482100B22117 /* JSBadgeView.h */,
+				69792D091643482100B22117 /* JSBadgeView.m */,
+			);
+			path = JSBadgeView;
+			sourceTree = "<group>";
+		};
 		6991AC451639683300A3FEE0 = {
 			isa = PBXGroup;
 			children = (
+				69792D071643482100B22117 /* JSBadgeView */,
 				6908E2B61642E2A800E27559 /* curledView */,
 				69C85A8B163E41F600F758AE /* UIGlossyButton */,
 				6991AC5116396B9600A3FEE0 /* Graphics */,
