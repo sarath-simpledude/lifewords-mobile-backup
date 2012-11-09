@@ -97,6 +97,8 @@
 		69520E341644DE490008423A /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
 		69520E351644DE640008423A /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
 		69520E361644DE640008423A /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		6963E923164C9471007DB2B2 /* SPUserResizableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPUserResizableView.h; sourceTree = "<group>"; };
+		6963E924164C9471007DB2B2 /* SPUserResizableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPUserResizableView.m; sourceTree = "<group>"; };
 		69792D081643482100B22117 /* JSBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
 		69792D091643482100B22117 /* JSBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
 		6991AC5316396B9600A3FEE0 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
@@ -226,6 +228,15 @@
 			path = "Main View";
 			sourceTree = "<group>";
 		};
+		6963E922164C9471007DB2B2 /* SPUserResizableView */ = {
+			isa = PBXGroup;
+			children = (
+				6963E923164C9471007DB2B2 /* SPUserResizableView.h */,
+				6963E924164C9471007DB2B2 /* SPUserResizableView.m */,
+			);
+			path = SPUserResizableView;
+			sourceTree = "<group>";
+		};
 		69792D071643482100B22117 /* JSBadgeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +249,7 @@
 		6991AC451639683300A3FEE0 = {
 			isa = PBXGroup;
 			children = (
+				6963E922164C9471007DB2B2 /* SPUserResizableView */,
 				69792D071643482100B22117 /* JSBadgeView */,
 				6908E2B61642E2A800E27559 /* curledView */,
 				69C85A8B163E41F600F758AE /* UIGlossyButton */,
